@@ -6,14 +6,16 @@
   --nav-list-color: #2e2f42;
   --color-nav-list-hover: #404bbf;
   --color-nav-list-focus: #404bbf;
-  --color-address-nav: #434455;
-  --color-address-nav-hover: #434455;
-  --color-address-nav-focus: #434455;
+  --color-address-nav-link: #434455;
+  --color-address-nav-link-hover: #404bbf;
+  --color-address-nav-link-focus: #404bbf;
+  --background-color: #ffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: var(--background-color);
 }
 
 /* Header */
@@ -56,18 +58,20 @@ body {
   color: var(--color-nav-list-focus);
 }
 
-.address-nav {
+/* Address navigation section */
+
+.address-nav-link {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-address-nav);
+  color: var(--color-address-nav-link);
 }
 
-.address-nav:hover {
-  color: var(--color-address-nav-hover);
+.address-nav-link:hover {
+  color: var(--color-address-nav-link-hover);
 }
 
-.address-nav:focus {
-  color: var(--color-address-nav-focus);
+.address-nav-link:focus {
+  color: var(--color-address-nav-link-focus);
 }

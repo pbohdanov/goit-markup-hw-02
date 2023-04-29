@@ -1,4 +1,73 @@
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: ;
+  --logo-colour: #4d5ae5;
+  --logo-right-part: #2e2f42;
+  --nav-list-color: #2e2f42;
+  --color-nav-list-hover: #404bbf;
+  --color-nav-list-focus: #404bbf;
+  --color-address-nav: #434455;
+  --color-address-nav-hover: #434455;
+  --color-address-nav-focus: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
+/* Header */
+
+/* Logo */
+.logo {
+  color: var(--logo-colour);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-right-part {
+  color: var(--logo-right-part);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--nav-list-color);
+}
+
+.nav-list:hover {
+  color: var(--color-nav-list-hover);
+}
+
+.nav-list:focus {
+  color: var(--color-nav-list-focus);
+}
+
+.address-nav {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-address-nav);
+}
+
+.address-nav:hover {
+  color: var(--color-address-nav-hover);
+}
+
+.address-nav:focus {
+  color: var(--color-address-nav-focus);
 }

@@ -10,6 +10,7 @@
   --color-address-nav-link-hover: #404bbf;
   --color-address-nav-link-focus: #404bbf;
   --background-color: #ffffff;
+  --background-color-hero: #2e2f42;
 }
 
 body {
@@ -60,8 +61,10 @@ body {
 
 /* Address navigation section */
 
-.address-nav-link {
+.address-nav-list {
   font-style: normal;
+}
+.address-nav-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -74,4 +77,33 @@ body {
 
 .address-nav-link:focus {
   color: var(--color-address-nav-link-focus);
+}
+
+/* Main content */
+/* Hero section */
+.hero-section {
+  background-color: var(--background-color-hero);
+}
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #404bbf;
+}
+.button:focus {
+  background-color: #404bbf;
 }

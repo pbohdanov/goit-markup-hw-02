@@ -166,6 +166,9 @@ body {
 .footer {
   background-color: var(--background-color-hero);
 }
+.footer-logo-right-part {
+  color: #f4f4fd;
+}
 
 /* Portfolio */
 
@@ -178,4 +181,27 @@ body {
   letter-spacing: 0.04em;
   color: var(--button-text-color);
   cursor: pointer;
+}
+.portfolio-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.project-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--background-color-hero);
+}
+
+.project-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-address-nav-link);
 }

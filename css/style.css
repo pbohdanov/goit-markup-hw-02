@@ -136,11 +136,11 @@ body {
   color: var(--title-color);
 }
 
-/* Section 3 */
+/* Section 3  - Our Team */
 .section-team-list {
   background-color: #f4f4fd;
 }
-.team-list {
+.section-header-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -156,6 +156,9 @@ body {
   color: var(--title-color);
 }
 
+.team-list{
+    background-color: #FFFFFF;
+}
 .team-list-text {
   font-size: 16px;
   line-height: 1.5;
@@ -167,8 +170,14 @@ body {
   background-color: var(--background-color-hero);
 }
 .footer-logo-right-part {
-  color: #f4f4fd;
+    color: var(--button-background-color);
+  font-family: "Roboto"; sans-serif; 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
+
 
 /* Portfolio */
 

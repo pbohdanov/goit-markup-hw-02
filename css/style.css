@@ -18,7 +18,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--color-address-nav-link)
   background-color: var(--background-color);
 }
 
@@ -156,8 +156,8 @@ body {
   color: var(--title-color);
 }
 
-.team-list{
-    background-color: #FFFFFF;
+.team-list {
+  background-color: #ffffff;
 }
 .team-list-text {
   font-size: 16px;
@@ -170,9 +170,10 @@ body {
   background-color: var(--background-color-hero);
 }
 .footer-logo-right-part {
-    color: var(--button-background-color);
-  font-family: "Roboto"; sans-serif; 
-  font-weight: 400;
+  color: var(--button-background-color);
+}
+.footer-text {
+  color: var(--button-background-color);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -213,14 +214,4 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-address-nav-link);
-}
-
-/* Footer-Portfolio */
-.footer-text {
-  color: var(--button-background-color);
-  font-family: "Roboto"; sans-serif; 
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
 }

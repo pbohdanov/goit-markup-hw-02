@@ -18,7 +18,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--color-address-nav-link)
+  color: var(--color-address-nav-link);
   background-color: var(--background-color);
 }
 
@@ -178,7 +178,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
 }
-
 
 /* Portfolio */
 
